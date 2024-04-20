@@ -1,0 +1,41 @@
+{
+  "remappings": [
+    "create2-scripts/=lib/create2-helpers/script/",
+    "create2-helpers/=lib/create2-helpers/src/",
+    "forge-std/=lib/forge-std/src/",
+    "@ensdomains/=node_modules/@ensdomains/",
+    "@manifoldxyz/=node_modules/@manifoldxyz/",
+    "@openzeppelin/=node_modules/@openzeppelin/",
+    "ds-test/=lib/forge-std/lib/ds-test/src/",
+    "erc4626-tests/=lib/operator-filter-registry/lib/openzeppelin-contracts/lib/erc4626-tests/",
+    "eth-gas-reporter/=node_modules/eth-gas-reporter/",
+    "hardhat/=node_modules/hardhat/",
+    "murky/=lib/murky/src/",
+    "openzeppelin-contracts-upgradeable/=lib/operator-filter-registry/lib/openzeppelin-contracts-upgradeable/",
+    "openzeppelin-contracts/=lib/murky/lib/openzeppelin-contracts/",
+    "operator-filter-registry/=node_modules/operator-filter-registry/",
+    "truffle/=node_modules/truffle/"
+  ],
+  "optimizer": {
+    "enabled": true,
+    "runs": 800
+  },
+  "metadata": {
+    "useLiteralContent": false,
+    "bytecodeHash": "ipfs"
+  },
+  "outputSelection": {
+    "*": {
+      "*": [
+        "evm.bytecode",
+        "evm.deployedBytecode",
+        "devdoc",
+        "userdoc",
+        "metadata",
+        "abi"
+      ]
+    }
+  },
+  "evmVersion": "london",
+  "libraries": {}
+}
